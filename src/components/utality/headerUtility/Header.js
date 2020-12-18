@@ -5,8 +5,8 @@ import React, { Component } from 'react';
         return (
             
                <div className="text-dark">
-                        Hi Tam Tran ,
-                        <h1>Welcome back</h1>
+                        {this.props.name },
+                        <h1>{this.props.greetings} </h1>
                     <div>
 
                     <div>

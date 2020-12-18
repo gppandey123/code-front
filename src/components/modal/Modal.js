@@ -1,13 +1,27 @@
-import React, { Component } from 'react';
+import React ,{useState} from 'react';
+import './Modal.css';
 
-export class Setting extends Component {
-    render() {
-        return (
-            <div>
-              <h1>this is the Setting Component</h1>  
-            </div>
-        )
+import Mid from './Mid';
+
+function Modal() {
+    const [openModal ,closeModal] = useState(true);
+
+    const setModal = () => {
+         closeModal(false);
     }
+    const SemState = () => {
+        //    setTimeout(() => {
+        //     closeModal(true);
+        //     },1000 )
+        console.log(openModal);    
+    }
+
+    return (
+           <div>
+               {openModal ? <Mid  openModal = {openModal} setModal = {setModal}/> : null}
+           </div>
+           
+    )
 }
 
-export default Setting
+export default Modal;

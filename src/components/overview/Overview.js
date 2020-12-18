@@ -4,12 +4,14 @@ import './Overview.css';
 import Header from '../utality/headerUtility/Header';
 import Utality from '../utality/Utality';
 
+
  class Overview extends Component {
     render() {
         return (
             <div className="p-5"> 
                 <div>
-                  <Header />  
+                  <Header name="Hi Tam Tran"
+                  greetings="Welcome back"/>  
                 </div>
                <div className="utility">
                    <Utality title="Set a Google Analytics Code"

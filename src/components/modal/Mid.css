@@ -1,0 +1,12 @@
+.container{
+    width:650px !important;
+}
+
+#upload img {
+    max-width: 64px;
+    max-height: 64px;
+}
+#upload button{
+    
+    max-height: 40px;
+}

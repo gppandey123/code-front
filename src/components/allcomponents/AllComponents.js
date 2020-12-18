@@ -21,7 +21,10 @@ export class AllComponents extends Component {
                     <Route path ="/products" component={Product} />
                     <Route path ="/payouts" component ={Payout} />
                     <Route path ="/statements" component ={Statement} />
-                    <Route path ="/modal" component ={Modal} />
+                    <Route path ="/modal">
+                        <Modal 
+                        openModel={this.props.openModel} setModel={this.props.setModel}/>
+                        </Route>
                     <Route  component ={Error} />
                </Switch>   
             </div>
