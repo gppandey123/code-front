@@ -1,0 +1,11 @@
+utility{
+    width:90rem !important;
+    height: 35rem !important;
+}
+
+.input{
+    width: 130px;
+    
+    background-color: white;
+    border:none;
+}

@@ -1,0 +1,16 @@
+.slider_item{
+     /* display: flex ; */
+    background-color: #6C5DD3;
+    /* color: #ffffff;
+    padding: 18px;
+    justify-content:space-around;  */
+}
+
+.img {
+    
+    display: block;
+    max-width: 214px;
+    max-height: 213;
+    width: auto;
+    height: auto;
+}
